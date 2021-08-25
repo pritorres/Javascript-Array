@@ -10,3 +10,6 @@ let tasks = [
 ];
 
 //your code here
+let myTrues = tasks.filter(Element => Element.done === true);
+
+console.log(myTrues);
